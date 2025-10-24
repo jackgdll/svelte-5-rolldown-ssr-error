@@ -15,9 +15,7 @@ export default defineConfig({
         css: "injected",
       },
       emitCss: false,
-      preprocess: sveltePreprocess({
-        scss: true,
-      }),
+      preprocess: sveltePreprocess(),
     }),
   ],
 });
