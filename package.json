@@ -1,0 +1,35 @@
+{
+  "name": "svelte-5-rolldown-ssr-error",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rolldown -c && rollup -c",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "jsdom": "^27.0.1",
+    "rolldown": "1.0.0-beta.44",
+    "rollup-plugin-svelte": "^7.2.3",
+    "svelte": "5.39.0",
+    "vitest": "^4.0.2"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "svelte": "./src/index.js"
+    }
+  },
+  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.52.5",
+    "svelte-preprocess": "^6.0.3"
+  }
+}
