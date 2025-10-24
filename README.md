@@ -7,7 +7,7 @@ Affected versions: `svelte@>=5.39.0`
 ### Reproduction steps
 
 ```
-git clone git@github.com:rosbif/svelte-5-rolldown-ssr-error.git
+git clone git@github.com:jackgdll/svelte-5-rolldown-ssr-error.git
 cd svelte-5-rolldown-ssr-error
 pnpm install
 pnpm build
